@@ -1,7 +1,7 @@
 version: "3.3"
 services:
-  agile-message-sender-api:
-    image: 127.0.0.1:5000/agile-message-sender-api
+  agile-python-app:
+    image: 127.0.0.1:5000/agile-python-app
     build:
       context: ./
       dockerfile: ./Dockerfile.yml
